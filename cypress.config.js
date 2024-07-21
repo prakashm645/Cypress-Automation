@@ -14,7 +14,7 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
     video : true,
-    videoFolder : 'cypress/reports/html/video',
+    //videoFolder : 'cypress/reports/html/video',
     screenshotsFolder : 'cypress/reports/html/screenshots',
   },
 
